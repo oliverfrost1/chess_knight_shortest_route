@@ -7,8 +7,8 @@ I decided to structure it like a binary search tree, because the moves of a give
 I limited the amount of moves saved in the binary search tree, because otherwise computing power would be exponential. 
 
 Code to run a test with: 
-´´´
+```
 board = Board.new()
 p board.knight_moves([0,0],[7,7])
 #=> [[0, 0], [1, 2], [2, 4], [3, 6], [4, 4], [5, 6], [7, 7]]
-´´´
+```
